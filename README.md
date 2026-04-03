@@ -123,3 +123,17 @@ cd frontend && npm run build
 ```bash
 cd backend && npm start
 ```
+
+## 🏗️ Multi-Platform Deployment (Vercel + Render)
+
+For this specific project, the **frontend** is optimized for **Vercel** and the **backend** is optimized for **Render**:
+
+- **Frontend (Vercel)**:
+  - Points to the Render API via `VITE_API_URL` or the hardcoded fallback in `axios.js`.
+  - Framework Preset: **Other**
+- **Backend (Render)**:
+  - Requires `Root Directory: backend`.
+  - Start Command: `npm start`.
+
+---
+Built with ❤️ by [Mahidhar Chowdary](https://github.com/Mahidharchowdary2004)
