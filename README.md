@@ -90,5 +90,36 @@ A premium, secure financial management system built with the **MERN** stack, fea
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
-Built with ❤️ by [Mahidhar Chowdary](https://github.com/Mahidharchowdary2004)
+## 🚀 Deployment & Build Commands
+
+### **Install Commands**
+**Root Directory:**
+```bash
+npm install
+```
+**Frontend:**
+```bash
+cd frontend && npm install
+```
+**Backend:**
+```bash
+cd backend && npm install
+```
+
+### **Build Command (Frontend)**
+To generate a production-ready build of your UI:
+```bash
+cd frontend && npm run build
+```
+
+### **Output Directory**
+- **Frontend Build**: `./frontend/dist/`
+- **Backend Service**: Root access to `./backend/server.js`
+
+### **Running in Production**
+1. **Build the frontend assets.**
+2. **Setup environment variables on your host.**
+3. **Start the backend server**:
+```bash
+cd backend && npm start
+```
